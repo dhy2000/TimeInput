@@ -34,6 +34,7 @@ public class TimeInput implements Runnable {
         String line;
         while ((line = reader.readLine()) != null) {
             System.out.println(line);
+            System.out.flush();
         }
     }
 
